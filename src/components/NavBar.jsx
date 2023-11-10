@@ -48,7 +48,7 @@ export const NavBar = () => {
              hover:scale-105 duration-200'>
                 <Link to={link} smooth duration={500}>{link}</Link>
                 {download && (
-                <a href={'/DhruvAgarwal-Resume.pdf'}target="_blank" rel="noreferrer">Resume</a>
+                <a href={'/Resume.pdf'}target="_blank" rel="noreferrer">Resume</a>
                 )}
              </li>
         ))}
